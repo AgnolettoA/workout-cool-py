@@ -41,6 +41,7 @@
 - [Project Architecture](#project-architecture)
 - [Contributing](#contributing)
 - [Self-hosting](#deployment--self-hosting)
+- [Python Port](#experimental-python-port)
 - [Resources](#resources)
 - [License](#license)
 - [Sponsor This Project](#-sponsor-this-project)
@@ -346,6 +347,15 @@ npx prisma migrate deploy
 
 # Start the production server
 pnpm start
+```
+
+### Experimental Python Port
+
+An early Flask prototype is included for Python hosting. See [docs/PYTHON_PORT.md](docs/PYTHON_PORT.md) for deployment details.
+
+```bash
+pip install -r python_port/requirements.txt
+python python_port/app.py
 ```
 
 ## Resources
